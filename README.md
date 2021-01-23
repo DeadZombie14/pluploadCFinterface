@@ -13,6 +13,6 @@ IMPORTANTE: Crear una carpeta llamada "uploads" en la raiz del proyecto para que
 
 Si usas una versión superior de Cold Fusion es necesario modificar el archivo fileManager.cfc y añadir la tag 
 `allowedExtensions="*"`
-en la función upload en el <cffile>. Esto debido a que las versiones mas recientes no admiten la carga de archivos sin nombre al servidor, rompiendo la dinámica de subida por chunks de Plupload.
+en la función upload en el cffile. Esto debido a que las versiones mas recientes no admiten la carga de archivos sin nombre al servidor, rompiendo la dinámica de subida por chunks de Plupload.
 
 Datatables es utilizado para poder mantener visible una lista de archivos en el servidor y eliminar algunos en caso de ser necesario.
